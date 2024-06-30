@@ -41,8 +41,7 @@ def get_current_weather():
         f'\nFeels like {weather_data["main"]["feels_like"]}C and {weather_data["weather"][0]["description"].title()}.'
     )
     print(f'\nWind from {weather_data["wind"]["deg"]} ({cardinal})'
-          f' speed {weather_data["wind"]["speed"]}, gusting'
-          f' {weather_data["wind"]["gust"]}.\n')
+          f' speed {weather_data["wind"]["speed"]}.\n')
 
 
 
